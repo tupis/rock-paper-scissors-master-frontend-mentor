@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+//Font
+    $font: 'Barlow Semi Condensed', sans-serif;
+    // - Weights: 600, 700
+
+//Colors
+    $white: #fff;
+    $darkText: hsl(229, 25%, 31%);
+    $scoreText: hsl(229, 64%, 46%);
+    $headerOutline: hsl(217, 16%, 45%);
+
+
+// Background
+    $bgradial1: hsl(214, 47%, 23%);
+    $bgradial2: hsl(237, 49%, 15%);
+    
+
+// - Scissors Gradient: hsl(39, 89%, 49%) to hsl(40, 84%, 53%)
+// - Paper Gradient: hsl(230, 89%, 62%) to hsl(230, 89%, 65%)
+// - Rock Gradient: hsl(349, 71%, 52%) to hsl(349, 70%, 56%)
+// - Lizard Gradient: hsl(261, 73%, 60%) to hsl(261, 72%, 63%)
+// - Cyan: hsl(189, 59%, 53%) to hsl(189, 58%, 57%)
