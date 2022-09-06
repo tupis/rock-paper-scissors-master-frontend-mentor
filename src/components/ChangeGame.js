@@ -7,14 +7,18 @@ const ChangeGame = () => {
     const [isHard, setIsHard] = useState(false)
 
     return (
-        <>
+        <div className="change-game">
             <Link 
                 to={isHard === true ? '/' : '/hard'}
                 onClick={() => setIsHard(!isHard)}    
-            >
-                {isHard === true ? 'Change to Normal Mode' : 'Change to Hard Mode'}
+                >
+                <button>
+                    <p>
+                        Change to {isHard === true ? <span>Normal Mode</span> : <span>Hard Mode</span>}
+                    </p>
+                </button>
             </Link>
-        </>
+        </div>
     );
 }
  
