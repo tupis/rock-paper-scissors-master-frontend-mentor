@@ -1,4 +1,4 @@
-# Rock Paper Sciccors Master
+# Rock Paper Scissors Master
 
 O famoso jogo de pedra, papel e tesoura, só que dessa vez de forma digital, com dois modos de jogo, o normal que conta com 3 tipos de jogadas tradicionais e o difícil que conta com 5 tipos de jogadas diferentes.
 
