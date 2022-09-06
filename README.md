@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Rock Paper Sciccors Master
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O famoso jogo de pedra, papel e tesoura, só que dessa vez de forma digital, com dois modos de jogo, o normal que conta com 3 tipos de jogadas tradicionais e o difícil que conta com 5 tipos de jogadas diferentes.
 
-## Available Scripts
+## 🚀 Começando
 
-In the project directory, you can run:
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-### `npm start`
+### 📋 Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔧 Instalação e Execução
 
-### `npm test`
+Etapas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório
+```
+$ git clone https://github.com/tupis/rock-paper-scissors-master-frontend-mentor.git
+```
+2. Acesse a pasta do projeto no terminal/cmd
+```
+$ cd rock-paper-scissors-master-frontend-mentor
+```
+3. Instale as dependências
+```
+$ npm install
+```
+4. Execute a aplicação em modo de desenvolvimento
+```
+$ npm start
+```
 
-### `npm run build`
+- **Obs**: O servidor inciará na porta: **3000** - acesse <http://localhost:3000>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] Alterar modo de jogo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] Sistemas de pontuação
+	
+- [ ] Responsividade
 
-### `npm run eject`
+## 🛠️ Construído com
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Principais tecnologia usada neste projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação
+* [React](https://pt-br.reactjs.org/docs/getting-started.html) - A biblioteca web usada
+* [Sass](https://sass-lang.com/documentation/) - Pré processador CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📄 Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este projeto está sob a licença MIT.
 
-## Learn More
+## ✒ Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a href="https://github.com/tupis">
+  <img src="https://user-images.githubusercontent.com/95971013/183971745-f895f523-b707-4811-ba0e-d81409ca2205.jpg" width="300px;" alt=""/>
+ <br />
+ <sub><b>João Tupinambá</b></sub>
+</a> 
+<a href="https://github.com/tupis" title="Github">🚀</a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feito com ❤️ por João Tupinambá 👋🏽 Entre em contato!
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Linkedin Badge](https://img.shields.io/badge/-Tupi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joaotupinamba)](https://www.linkedin.com/in/joaotupinamba/) 
+[![Gmail Badge](https://img.shields.io/badge/-joaoh.tupinamba@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:joaoh.tupinamba@gmail.com)
