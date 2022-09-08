@@ -1,5 +1,4 @@
 const Header = (props) => {
-
     const {items, score} = props
 
     return (
