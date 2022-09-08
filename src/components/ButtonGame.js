@@ -1,4 +1,4 @@
-const ButtonGame = ({icon, borderColor, play, name }) => {
+const ButtonGame = ({icon, borderColor, selectPlays, name }) => {
 
     const divStyle = {
         borderColor,
@@ -6,9 +6,9 @@ const ButtonGame = ({icon, borderColor, play, name }) => {
 
     return (
         <div 
-            className="buttonGame" 
+            className="button-game" 
             style={divStyle}
-            onClick={() => play(name)}
+            onClick={() => selectPlays(name)}
         >
             <img src={icon} alt={icon}/>
         </div>
