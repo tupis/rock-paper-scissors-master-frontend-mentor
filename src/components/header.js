@@ -1,4 +1,7 @@
-const Header = ({items, score }) => {
+const Header = (props) => {
+
+    const {items, score} = props
+
     return (
         <div className="header">
             <div className={items.length === 3 ? "items" : "items-hard"}>
