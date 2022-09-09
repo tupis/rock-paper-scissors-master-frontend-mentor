@@ -2,6 +2,10 @@
 
 O famoso jogo de pedra, papel e tesoura, só que dessa vez de forma digital, com dois modos de jogo, o normal que conta com 3 tipos de jogadas tradicionais e o difícil que conta com 5 tipos de jogadas diferentes.
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/95971013/189254633-3efb42c4-aff2-4fe1-af78-ab98fe9eceeb.gif">
+</div>
+
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
