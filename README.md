@@ -40,8 +40,6 @@ $ npm start
 - [x] Alterar modo de jogo
 
 - [x] Sistemas de pontuação
-	
-- [ ] Responsividade
 
 ## 🛠️ Construído com
 
