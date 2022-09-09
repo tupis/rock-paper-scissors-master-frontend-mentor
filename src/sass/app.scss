@@ -68,13 +68,42 @@ body {
 }
 
 .pentagon-bg{
-    display: flex;
-    justify-content: center;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 40vh;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    width: fit-content;
+    grid-column-gap: 70px;
+    
+    
     
     background-image: url('../assets/bg-pentagon.svg');
+
+    div{
+        margin-top: -30px;
+        &:nth-child(1){
+            grid-column: 1/3;
+            margin: auto;
+            transform: translateY(-10px);
+        }
+        &:nth-child(2){
+            transform: translateX(-10px);
+        }
+        &:nth-child(3) {
+            transform: translateX(10px);
+        }
+        &:nth-child(4){
+            margin-top: 0;
+            transform: translateX(10px);
+        }
+        &:nth-child(5){
+            margin-top: 0;
+            transform: translateX(-10px);
+        }
+    }
 }
 
 .button-game {
